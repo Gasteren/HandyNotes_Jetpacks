@@ -1,7 +1,7 @@
 ## Interface: 110107, 110200
 
 ## Title: HandyNotes_Jetpacks
-## Version: 11.1.5
+## Version: 11.1.7
 ## Notes: Displays the locations of the Jetpacks.
 ## Author: Frostaphim-Xavius
 ## IconTexture: Interface\ICONS\inv_backpack_wrathion_c_01
