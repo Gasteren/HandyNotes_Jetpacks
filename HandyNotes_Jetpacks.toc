@@ -1,16 +1,17 @@
 ## Interface: 110107, 110200
 
 ## Title: HandyNotes_Jetpacks
-## Version: 11.1.7
+## Version: 11.2
 ## Notes: Displays the locations of the Jetpacks.
-## Author: Frostaphim-Xavius
+## Author: Frost-Lightbringer
+## Group: Tools by: Frostaphim | Frost-Lightbringer
+
 ## IconTexture: Interface\ICONS\inv_backpack_wrathion_c_01
 
 ## DefaultState: enabled
 ## RequiredDeps: HandyNotes
 ## SavedVariables: HandyNotes_JetpacksDB
 
-## IconTexture: Interface\ICONS\inv_backpack_wrathion_c_01
 
 Core.lua
 Data.lua
