@@ -1,7 +1,7 @@
-## Interface: 110107, 110200
+## Interface: 110205, 110207, 120000
 
 ## Title: HandyNotes_Jetpacks
-## Version: 11.2
+## Version: 11.7
 ## Notes: Displays the locations of the Jetpacks.
 ## Author: Frost-Lightbringer
 ## Group: Tools by: Frostaphim | Frost-Lightbringer
