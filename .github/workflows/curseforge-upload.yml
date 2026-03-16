@@ -1,0 +1,32 @@
+name: Upload to CurseForge
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  upload:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Create zip
+        run: |
+          mkdir HandyNotes_Jetpacks
+          cp *.lua *.toc HandyNotes_Jetpacks/
+          zip -r HandyNotes_Jetpacks.zip HandyNotes_Jetpacks
+
+      - name: Upload to CurseForge
+        uses: itsmeow/curseforge-upload@v3
+        with:
+          token: "${{ secrets.ADIBAGS_FISHING }}"
+          project_id: "326989"
+          game_endpoint: "wow"
+          file_path: "HandyNotes_Jetpacks.zip"
+          game_versions: "12.0.5"
+          release_type: "release"
+          display_name: "HandyNotes_Jetpacks - ${{ github.event.head_commit.timestamp }}"
+          changelog: "${{ github.event.head_commit.message }}"
+          changelog_type: "markdown"
