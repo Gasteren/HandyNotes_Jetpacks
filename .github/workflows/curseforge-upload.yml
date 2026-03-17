@@ -21,7 +21,7 @@ jobs:
       - name: Upload to CurseForge
         uses: itsmeow/curseforge-upload@v3
         with:
-          token: "${{ secrets.ADIBAGS_FISHING }}"
+          token: "${{ secrets.HANDYNOTES_JETPACKS }}"
           project_id: "326989"
           game_endpoint: "wow"
           file_path: "HandyNotes_Jetpacks.zip"
