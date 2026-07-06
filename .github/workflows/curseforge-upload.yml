@@ -25,7 +25,7 @@ jobs:
           project_id: "326989"
           game_endpoint: "wow"
           file_path: "HandyNotes_Jetpacks.zip"
-          game_versions: "12.0.5"
+          game_versions: "12.0.7"
           release_type: "release"
           display_name: "HandyNotes_Jetpacks - ${{ github.event.head_commit.timestamp }}"
           changelog: "${{ github.event.head_commit.message }}"
