@@ -23,4 +23,4 @@ This addon displays all the **potential spawn points** where jetpacks can be bui
 
 ---
 
-Thanks for checking out the addon — and enjoy soaring through Mechagon!
+Thanks for checking out the addon.
